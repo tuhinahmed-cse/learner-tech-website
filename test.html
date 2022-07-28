@@ -330,6 +330,142 @@
 <!-- course section end -->
 
 
+<!-- course register start -->
+
+<section style="height: 240px;" id="subscriber"
+class="container rounded-3 d-flex align-items-center justify-content-between bg-primary mb-5">
+<div class="ms-5">
+    <h1 class="text-white">Ready to join?</h1>
+    <p class="text-white text-wrap mb-5" style="max-width: 20rem;">If you are interest to join with us then click register button and join with us.</p>
+</div>
+
+    <div>
+        <button type="submit" class="btn btn-light text-info fs-6 fw-bold px-3 py-2 me-5" data-bs-toggle="modal" data-bs-target="#myModal">Register Now</button>
+
+        <!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Register Form</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+    
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+            
+               
+              </form>
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+            <button type="button" class="btn btn-info" data-bs-dismiss="modal">Submit</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- course register end -->
+
+
+
+<!-- Asked Question part start -->
+
+<section class="container mb-5">
+
+    <div class="d-flex flex-column justify-content-center align-items-center h-100">
+        <h1 class="text-center fw-bold text-wrap" style="max-width: 35rem;">
+            Frequently Asked Questions
+          </h1>
+        
+          <p class="text-center text-wrap mb-5" style="max-width: 28rem;">Here some common question from this course. we are try to answer this question to know you much better in our courses.</p>
+      </div>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button text-black fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What are the difference between flex box and grid ?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <strong>Flexbox:</strong> The CSS Flexbox offers a one-dimensional layout. It is helpful in allocating and aligning the space among items in a container (made of grids). It works with all kinds of display devices and screen sizes. <br>
+                <strong>Grid:</strong> CSS Grid Layout, is a two-dimensional grid-based layout system with rows and columns, making it easier to design web pages without having to use floats and positioning. Like tables, grid layout allow us to align elements into columns and rows.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed text-black fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What are the difference between bootstrap and tailwind ?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>Bootstrap :</strong> Bootstrap was developed by Mark Otto and Jacob Thorton during an internal competition at Twitter in August 2011. It is an open-source framework that is used to design responsive websites better, faster, and easier. It is a beginner-friendly and the most popular open-source framework that includes HTML, CSS, and JavaScript. <br>
+
+              <strong>Tailwind :</strong> Tailwind CSS was initially developed by Adam Wathan, and the first version was released back on the 1st of November, 2017. Tailwind CSS is a utility-first CSS framework for building custom user interfaces rapidly and efficiently. It is an inline styling used to achieve a sleek interface without writing code for your own CSS.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed text-black fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+             What is css box model ?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>The CSS box model</strong> is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. The web browser renders every element as a rectangular box according to the CSS box model. Box-Model has multiple properties in CSS.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingfour">
+            <button class="accordion-button collapsed text-black fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+             What is semantic tag ? 
+            </button>
+          </h2>
+          <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                A semantic element clearly describes its meaning to both the browser and the developer.non-semantic elements tells nothing about its content. semantic elements Clearly defines its content. Semantic HTML5 addresses this shortcoming by defining specific tags to indicate clearly what role is played by the content those tags contain. That explicit information helps robots/crawlers like Google and Bing to better understand which content is important, which is a subsidiary, which is for navigation, and so on. By adding semantic HTML tags to your pages, you provide additional information that helps Google and Bing understand the roles and relative importance of the different parts of your page.
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+</section>
+
+
+
+<!-- Asked Question part End -->
+
+
 
 
     </main>
